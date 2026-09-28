@@ -27,19 +27,6 @@ The project uses an **IPL match dataset** containing information related to seas
 
 ---
 
-## Project Files
-
-```text
-SWYNEX-Data-Cleaning-Preparation/
-│
-├── README.md
-│
-├── IPL_MATCHES_RAW_DATA/
-│   └── IPL_Matches_Data_2008_2026 1(Sheet1).csv
-│
-└── IPL_Matches_Data_2008_2026/
-    └── IPL_Matches_Data_2008_2026 1.pdf
-```
 
 ### File Description
 
