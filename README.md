@@ -29,8 +29,8 @@ The project uses an **IPL match dataset** containing information related to seas
 ## Project Files
 
 
-* 📊 **[View / Download IPL Raw Dataset (CSV)](./IPL_MATCHES_RAW_DATA/IPL_Matches_Data_2008%201%28Sheet1%29.csv)**
-* 📄 **[View IPL Dataset Reference (PDF)](./IPL_Matches_Data_2008_2026/IPL_Matches_Data_2008_2026%201.pdf)**
+* 📊 **[View / Download IPL Raw Dataset (CSV)](IPL_RAW_DATA.csv)**
+* 📄 **[View IPL Dataset Reference (PDF)](IPL_CLEANED_OUTPUT.pdf)**
 
 
 ### File Description
