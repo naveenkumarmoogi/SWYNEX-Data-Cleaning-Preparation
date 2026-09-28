@@ -1,17 +1,18 @@
-# SWYNEX-Data-Cleaning-Preparation
-# Task 1 — Data Cleaning & Preparation
+# SWYNEX — Data Cleaning & Preparation
 
-## Overview
+## Task 1 — Data Cleaning & Preparation
 
-This project was completed as **Task 1 of my internship project**.
+### Overview
 
-The objective was to inspect a raw dataset, identify data-quality issues, and prepare the dataset for further analysis using **Microsoft Excel Online**.
+This project was completed as **Task 1 of my SWYNEX internship project**.
+
+The objective was to inspect a raw IPL match dataset, identify data-quality issues, and prepare the dataset for further analysis using **Microsoft Excel Online**.
 
 The cleaning process focused on:
 
 * Missing and incomplete values
 * Duplicate records
-* Incorrect or inconsistent data types
+* Data type validation
 * Inconsistent categorical values
 * Date formatting
 
@@ -20,11 +21,39 @@ The cleaning process focused on:
 
 **Microsoft Excel Online**
 
+## Dataset
+
+The project uses an **IPL match dataset** containing information related to seasons, match numbers, dates, venues, teams, toss decisions, results, players, and umpires.
+
 ---
 
-## Data Cleaning Process
+## Project Files
 
-### 1. Missing / Incomplete Values
+```text
+SWYNEX-Data-Cleaning-Preparation/
+│
+├── README.md
+│
+├── IPL_MATCHES_RAW_DATA/
+│   └── IPL_Matches_Data_2008_2026 1(Sheet1).csv
+│
+└── IPL_Matches_Data_2008_2026/
+    └── IPL_Matches_Data_2008_2026 1.pdf
+```
+
+### File Description
+
+| File                                       | Description                                             |
+| ------------------------------------------ | ------------------------------------------------------- |
+| `IPL_Matches_Data_2008_2026 1(Sheet1).csv` | Raw IPL match dataset used for the data-cleaning task   |
+| `IPL_Matches_Data_2008_2026 1.pdf`         | PDF reference/documentation for the IPL dataset         |
+| `README.md`                                | Documentation of the data-cleaning process and findings |
+
+---
+
+# Data Cleaning Process
+
+## 1. Missing / Incomplete Values
 
 I inspected the dataset for values such as `N/A`, `None`, and `Unknown`.
 
@@ -43,6 +72,8 @@ The following findings were identified:
 
 The `None` and `Unknown` values were documented rather than blindly replaced because their meaning depends on the context of the original dataset.
 
+---
+
 ## 2. Duplicate Records
 
 I checked the dataset for duplicate records.
@@ -53,12 +84,11 @@ I checked the dataset for duplicate records.
 
 No duplicate records were identified during the duplicate check.
 
+---
 
 ## 3. Data Type Validation
 
 I reviewed the data types and number formats of the dataset columns.
-
-Examples:
 
 | Column          | Data Type / Format | Result       |
 | --------------- | ------------------ | ------------ |
@@ -73,19 +103,25 @@ Examples:
 | `TOSS_DECISION` | General            | Appropriate  |
 | `RESULT_TYPE`   | General            | Appropriate  |
 
+No unnecessary data-type changes were made where the existing format was appropriate.
+
+---
+
 ## 4. Date Standardization
 
-The date column contained inconsistent date representations.
+The `DATE` column contained inconsistent date representations.
 
 I standardized the dates into the following format:
 
 **DD-MM-YYYY**
 
-Example:
+### Example
 
 `18-04-2008`
 
-This makes the date values easier to read and keeps the dataset consistent for future analysis.
+This provides a consistent date format for future analysis.
+
+---
 
 ## 5. Inconsistent Value Check
 
@@ -97,7 +133,7 @@ I checked categorical columns for:
 * Unnecessary variations
 * Unexpected categorical values
 
-### Columns checked
+### Columns Checked
 
 * `TOSS_DECISION`
 * `RESULT_TYPE`
@@ -125,7 +161,9 @@ For example, `TOSS_DECISION` contained:
 
 These values were consistently represented in the dataset.
 
-## Key Findings
+---
+
+# Key Findings
 
 The data-quality assessment identified:
 
@@ -139,15 +177,29 @@ The data-quality assessment identified:
 * Date formatting standardized to **DD-MM-YYYY**
 * No additional categorical spelling/capitalization inconsistencies found during the review
 
-## Project Objective
+---
 
-The purpose of this task was not simply to modify values, but to understand the quality of a raw dataset before using it for analysis.
+# Data Cleaning Workflow
 
-The workflow followed was:
+```text
+Raw IPL Dataset
+       ↓
+Data Quality Check
+       ↓
+Missing Value Identification
+       ↓
+Duplicate Check
+       ↓
+Data Type Validation
+       ↓
+Date Standardization
+       ↓
+Inconsistency Check
+       ↓
+Prepared Dataset
+```
 
-**Raw Dataset → Data Quality Check → Missing Value Identification → Duplicate Check → Data Type Validation → Date Standardization → Inconsistency Check → Prepared Dataset**
-
-## Skills Demonstrated
+# Skills Demonstrated
 
 * Microsoft Excel Online
 * Data Cleaning
@@ -159,23 +211,17 @@ The workflow followed was:
 * Categorical Data Validation
 * Data Quality Documentation
 
-## Project Outcome
+# Project Outcome
 
-The dataset was systematically reviewed and prepared for subsequent data analysis.
+The IPL dataset was systematically reviewed for common data-quality issues and prepared for subsequent data analysis.
 
-This project provided practical experience in identifying common data-quality problems that can affect analysis and reporting.
+This project provided practical experience in identifying and documenting data-quality problems that can affect analysis and reporting.
 
-IPL-Data-Cleaning/
-│
-├── README.md
-│
-├── IPL_MATCHES_RAW_DATA:[IPL_Matches_Data_2008_2026 1(Sheet1).csv]
-│
-└── IPL_Matches_Data_2008_2026: [IPL_Matches_Data_2008_2026 1.pdf]
+# Internship Information
 
-Internship Task
+**Internship:** SWYNEX
 **Task:** Task 1 — Data Cleaning & Preparation
-Tool: Microsoft Excel Online
-Status: Completed
+**Dataset:** IPL Match Data
 **Tool:** Microsoft Excel Online
 **Status:** Completed
+
