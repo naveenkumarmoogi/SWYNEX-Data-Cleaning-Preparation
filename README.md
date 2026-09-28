@@ -30,7 +30,7 @@ The project uses an **IPL match dataset** containing information related to seas
 
 
 * 📊 **[View / Download IPL Raw Dataset (CSV)](IPL_RAW_DATA.csv)**
-* 📄 **[View IPL Dataset Reference (PDF)](IPL_CLEANED_OUTPUT.pdf)**
+* 📄 **[View IPL Dataset Reference*
 
 
 ### File Description
