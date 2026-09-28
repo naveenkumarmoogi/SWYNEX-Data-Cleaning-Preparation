@@ -26,6 +26,11 @@ The cleaning process focused on:
 The project uses an **IPL match dataset** containing information related to seasons, match numbers, dates, venues, teams, toss decisions, results, players, and umpires.
 
 ---
+## Project Files
+
+
+* 📊 **[View / Download IPL Raw Dataset (CSV)](./IPL_MATCHES_RAW_DATA/IPL_Matches_Data_2008%201%28Sheet1%29.csv)**
+* 📄 **[View IPL Dataset Reference (PDF)](./IPL_Matches_Data_2008_2026/IPL_Matches_Data_2008_2026%201.pdf)**
 
 
 ### File Description
